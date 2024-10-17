@@ -9,3 +9,4 @@ polars-lts-cpu>=0.18.4
 mysql-connector-python>=8.0.0
 tabulate>=0.8.0
 python-dotenv>=1.0.0
+pandas >= 2.0.0
