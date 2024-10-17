@@ -35,6 +35,12 @@ jobs:
     - name: Test
       run: |
         make test
-    - name: Generate report
+    - name: extract
       run: |
-        make etl
+        make extract
+    - name: load
+      run: |
+        make load
+    - name: query
+      run: |
+        make query
